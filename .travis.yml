@@ -14,8 +14,8 @@ deploy:
   region: "us-east-2"
   app: "Docker Frontend App"
   env: "docker-environment"
-  bucket-name: "elasticbeanstalk-us-east-2-715753550714"
-  bucket-path: "Docker Frontend App"
+  bucket_name: "elasticbeanstalk-us-east-2-715753550714"
+  bucket_path: "Docker Frontend App"
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
